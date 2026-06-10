@@ -1,0 +1,64 @@
+# macOS
+.DS_Store
+
+# Project-local docs and agent notes
+docs/
+AGENTS.md
+.codex/
+
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+site/
+.eggs/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Editors and local project settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Notebook artifacts
+.ipynb_checkpoints/
+
+# Local RAG data and caches
+vector_db/
+chroma/
+chromadb/
+.cache/
+.gradio/
+.hf-home/
+
+# JavaScript build directories from indexed sample repos
+node_modules/
+.next/
+
+# Logs and temp files
+*.log
+tmp/
+temp/
